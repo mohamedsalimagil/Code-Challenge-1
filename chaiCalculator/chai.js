@@ -1,5 +1,5 @@
-//let numberOfCups = Number(prompt("Karibu! How many cups of Chai Bora would you like to make?")); linked it on my html file
-// This line prompts the user to enter the number of cups of Chai they want to make
+let numberOfCups = Number(prompt("Karibu! How many cups of Chai Bora would you like to make?"));// Prompt the user for the number of cups of Chai they want to make and convert it to a number
+//NOTE: To use this script and see the prompt + results,open the HTML file in a web browser and check the browser console.
 function calculateChaiIngredients(numberOfCups){ // This function calculates the ingredients needed for the given number of cups
     let totalWater = 200 * numberOfCups;// Calculate the total water needed
     let totalMilk = 50 * numberOfCups;// Calculate the total milk needed
