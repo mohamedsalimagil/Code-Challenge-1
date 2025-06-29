@@ -12,5 +12,5 @@ console.log(`Tea Leaves (Majani): ${totalTeaLeaves} tablespoons`);// Output the 
 console.log(`Sugar (Sukari): ${totalSugar} teaspoons`);// Output the total sugar needed
 console.log("Enjoy your Chai Bora!");// Output a message to enjoy the chai
 }
-calculateChaiIngredients(3);// Call the function with the number of cups you want to make
+calculateChaiIngredients(numberOfCups);// Call the function with the number of cups you want to make
 // You can change the number of cups by passing a different value to the function

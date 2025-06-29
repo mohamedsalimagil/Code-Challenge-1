@@ -14,6 +14,4 @@ console.log(`Total amount to be debited: KES ${totalDebited}`);// Log the total 
 console.log(`Send Money Securely!`);// Log a message to encourage secure transactions
 
 }
-estimateTransactionFee(500);// Estimate transaction fee for KES 500
-estimateTransactionFee(2000);// Estimate transaction fee for KES 2000
-estimateTransactionFee(10000);// Estimate transaction fee for KES 10000
+estimateTransactionFee(amountToSend);// Estimate transaction fee 

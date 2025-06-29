@@ -13,4 +13,4 @@ console.log(`Mpaka Uko: KES ${distanceCharge}`)// log the distance charge to the
 console.log(`Total: KES ${totalFare}`)// log the total fare to the console
 
 }
-calculateBodaFare(5)// call the function with a distance of 5 kilometers
+calculateBodaFare(distanceInKm)// call the function with a distance of 5 kilometers
